@@ -1,21 +1,12 @@
-
 import { GraduationCap } from "lucide-react";
 
 const EducationSection = () => {
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      school: "Stanford University",
-      period: "2016 - 2018",
-      description:
-        "Specialized in Human-Computer Interaction and Front-end Technologies. Thesis on improving web accessibility through machine learning.",
-    },
-    {
-      degree: "Bachelor of Science in Information Technology",
-      school: "MIT",
-      period: "2012 - 2016",
-      description:
-        "Focused on Software Development and Database Systems. Graduated with honors and participated in multiple hackathons.",
+      degree: "Bachelor of Information Technology (Honours)",
+      school: "Ontario Tech University",
+      period: "Sep 2022 - Apr 2027",
+      description: "Specializing in network engineering and cybersecurity.",
     },
   ];
 

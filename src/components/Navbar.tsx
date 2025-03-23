@@ -44,7 +44,7 @@ const Navbar = () => {
             <a
               key={section.name}
               href={section.href}
-              className="hover-link text-sm font-medium"
+              className="hover-link text-sm font-light"
             >
               {section.name}
             </a>
