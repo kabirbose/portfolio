@@ -45,7 +45,7 @@ const AboutSection = () => {
                 Beyond networking, I'm skilled in C++, Python, JavaScript,
                 TypeScript, and SQL, along with frameworks like Qt for C++,
                 LangChain for Python, PostgreSQL for SQL, and Next.js for
-                TypeScript. With three years of hands-on project experience, I
+                TypeScript. With three years of project-driven experience, I
                 specialize in developing practical, high-impact applications.
               </p>
             </div>

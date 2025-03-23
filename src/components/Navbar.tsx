@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -7,7 +6,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 20) {
@@ -37,12 +35,10 @@ const Navbar = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
-        <a href="#" className="text-white font-semibold text-xl">
-          Portfolio
+        <a href="#" className="text-white font-thin text-xl">
+          KB
         </a>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           {sections.map((section) => (
             <a
@@ -55,7 +51,6 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Mobile Navigation Toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-white p-1"
@@ -65,7 +60,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Navigation Menu */}
       {isOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-background/95 backdrop-blur-lg shadow-lg border-t border-white/10 animate-fade-in">
           <div className="px-6 py-4 space-y-3">
