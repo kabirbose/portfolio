@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="max-w-5xl mx-auto">
         <div className="space-y-10">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
+            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-white">
               Kabir Bose
             </h1>
             <p className="mt-4 text-xl text-white/80">
@@ -18,7 +18,7 @@ const AboutSection = () => {
           <div className="flex flex-wrap gap-4">
             <ProfileChip
               icon={<Briefcase size={16} />}
-              text="Network Engineer Intern at CBC"
+              text="Network Engineering Intern at CBC"
             />
             <ProfileChip
               icon={<GraduationCap size={16} />}
@@ -34,18 +34,19 @@ const AboutSection = () => {
             <h2 className="section-heading">About Me</h2>
             <div className="space-y-4 text-white/80">
               <p>
-                I'm a passionate front-end developer with over 5 years of
-                professional experience creating elegant, responsive, and
-                user-friendly web applications. I specialize in modern
-                JavaScript frameworks like React and Vue.js, with a strong focus
-                on performance optimization and accessibility.
+                I'm a dedicated network engineer with hands-on experience in
+                Cisco and Arista environments. Over the past year, I've worked
+                in a data center planning, designing, configuring, and
+                troubleshooting LANs. Currently in my third year of university,
+                I specialize in Networking and IT Security, with a strong grasp
+                of CCNA and CCNP concepts.
               </p>
               <p>
-                My background in UI/UX design allows me to bridge the gap
-                between design and development, creating cohesive experiences
-                that are both visually appealing and functionally robust. I'm
-                dedicated to staying at the forefront of web technologies and
-                best practices.
+                Beyond networking, I'm skilled in C++, Python, JavaScript,
+                TypeScript, and SQL, along with frameworks like Qt for C++,
+                LangChain for Python, PostgreSQL for SQL, and Next.js for
+                TypeScript. With three years of hands-on project experience, I
+                specialize in developing practical, high-impact applications.
               </p>
             </div>
           </div>
