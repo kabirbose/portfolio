@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -8,37 +7,27 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <p className="text-white/80 text-sm">
-              © {new Date().getFullYear()} Portfolio. All rights reserved.
-            </p>
-            <p className="text-white/50 text-xs mt-1">
-              Built with React and Tailwind CSS
+              © {new Date().getFullYear()} Kabir Bose. All rights reserved.
             </p>
           </div>
 
           <div className="flex items-center space-x-5">
             <a
-              href="#"
+              href="https://github.com/kabirbose"
               className="text-white/70 hover:text-accent transition-colors"
               aria-label="GitHub"
             >
               <Github size={18} />
             </a>
             <a
-              href="#"
+              href="https://linkedin.com/in/kabirbose/"
               className="text-white/70 hover:text-accent transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={18} />
             </a>
             <a
-              href="#"
-              className="text-white/70 hover:text-accent transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter size={18} />
-            </a>
-            <a
-              href="mailto:contact@example.com"
+              href="mailto:kabirbose04@gmail.com"
               className="text-white/70 hover:text-accent transition-colors"
               aria-label="Email"
             >

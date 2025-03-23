@@ -26,7 +26,7 @@ const ExperienceSection = () => {
         "Built strong communication skills working with diverse groups of campers and staff, developing the ability to explain complex concepts in simple terms",
         "Oversaw the safety and engagement of 60-70 campers daily, maintaining a secure environment while creating memorable summer experiences",
       ],
-      tech: ["STEM", "Sports", "Mentoring"],
+      tech: ["Microsoft Office"],
     },
     {
       company: "Canadian Armed Forces",
@@ -36,7 +36,7 @@ const ExperienceSection = () => {
         "Executed precise technical procedures including rifle handling, basic firefighting, and gas training under high-pressure conditions at Canadian Forces Base (CFB) Valcartier, reflecting exceptional discipline and composure",
         "Led a team through challenging tactical exercises during Basic Military Qualification (BMQ), developing strong problem-solving and leadership skills",
       ],
-      tech: ["Firearm Trained", "Gas-hut Trained", "BMQ Certified"],
+      tech: ["Microsoft Office"],
     },
   ];
 

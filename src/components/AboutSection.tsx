@@ -11,7 +11,7 @@ const AboutSection = () => {
               Kabir Bose
             </h1>
             <p className="mt-4 text-xl text-white/80">
-              Networking Engineer & Student
+              Network Engineer & Student
             </p>
           </div>
 
@@ -35,18 +35,18 @@ const AboutSection = () => {
             <div className="space-y-4 text-white/80">
               <p>
                 I'm a dedicated network engineer with hands-on experience in
-                Cisco and Arista environments. Over the past year, I've worked
-                in a data center planning, designing, configuring, and
-                troubleshooting LANs. Currently in my third year of university,
-                I specialize in Networking and IT Security, with a strong grasp
-                of CCNA and CCNP concepts.
+                Cisco and Arista technologies. Over the past year, I've worked
+                in a data center environment, planning, designing, configuring,
+                and troubleshooting LANs. Currently in my third year of
+                university, I specialize in Networking and IT Security, and have
+                a strong grasp of CCNA and CCNP concepts.
               </p>
               <p>
                 Beyond networking, I'm skilled in C++, Python, JavaScript,
-                TypeScript, and SQL, along with frameworks like Qt for C++,
-                LangChain for Python, PostgreSQL for SQL, and Next.js for
-                TypeScript. With three years of project-driven experience, I
-                specialize in developing practical, high-impact applications.
+                TypeScript, and SQL, along with frameworks like Qt, LangChain,
+                PostgreSQL, and Next.js. With three years of project-driven
+                experience, I enjoy developing practical, high-impact
+                applications.
               </p>
             </div>
           </div>

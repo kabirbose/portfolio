@@ -8,10 +8,16 @@ const EducationSection = () => {
       period: "Sep 2022 - Apr 2027",
       description: "Specializing in network engineering and cybersecurity.",
     },
+    {
+      degree: "Ontario Secondary School Diploma (OSSD)",
+      school: "Lester B. Pearson Collegiate Institute",
+      period: "Sep 2019 - Jun 2022",
+      description: "Completed my high-school diploma.",
+    },
   ];
 
   return (
-    <section id="education" className="py-20 px-6 lg:px-10 bg-white/[0.01]">
+    <section id="education" className="py-20 px-6 lg:px-10">
       <div className="max-w-5xl mx-auto">
         <h2 className="section-heading">Education</h2>
 

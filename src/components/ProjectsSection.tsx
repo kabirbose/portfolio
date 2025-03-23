@@ -17,9 +17,9 @@ const ProjectsSection = () => {
         "Connects directly to your database and queries it using plain English statements.",
       tags: ["LangChain", "SQL", "TypeScript", "Next.js"],
       image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=800&auto=format",
-      github: "https://github.com/username/portfolio",
-      demo: "https://tasks.example.com",
+        "https://www.jetbrains.com/datagrip/img/screenshots/query-console.png",
+      github: "",
+      demo: "",
     },
     {
       title: "File Manager",
@@ -27,19 +27,18 @@ const ProjectsSection = () => {
         "File-manager that significantly speeds up lookup times compared to Windows File Explorer.",
       tags: ["C++", "Qt"],
       image:
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=800&auto=format",
-      github: "https://github.com/username/task-manager",
-      demo: "https://tasks.example.com",
+        "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2024/12/windows-explorer-highlighting-the-home-folder-with-the-file-explorer-icon-in-the-center.jpg",
+      github: "",
+      demo: "",
     },
     {
-      title: "CCNA Mega Lab",
+      title: "CCNA Labs",
       description:
-        "Completed CCNA Lab created by Jeremy's IT Lab. Used for studying for my CCNA.",
+        "Completed CCNA labs created by Jeremy's IT Lab. Used for studying for my CCNA.",
       tags: ["Packet Tracer", "Cisco IOS"],
-      image:
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format",
-      github: "https://github.com/username/ecommerce",
-      demo: "https://shop.example.com",
+      image: "https://blog.apnic.net/wp-content/uploads/2016/12/Picture14.png",
+      github: "https://github.com/kabirbose/ccna-labs",
+      demo: "",
     },
   ];
 
@@ -90,20 +89,29 @@ const ProjectsSection = () => {
                     rel="noopener noreferrer"
                   >
                     <Github size={16} />
-                    <span>Code</span>
+                    <span>Repo</span>
                   </a>
                 </Button>
 
-                <Button variant="outline" size="sm" className="flex-1" asChild>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                {project.demo != "" ? (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="flex-1"
+                    asChild
                   >
-                    <ExternalLink size={16} />
-                    <span>Demo</span>
-                  </a>
-                </Button>
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink size={16} />
+                      <span>Demo</span>
+                    </a>
+                  </Button>
+                ) : (
+                  ""
+                )}
               </CardFooter>
             </Card>
           ))}

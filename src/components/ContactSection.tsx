@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { Mail, MapPin, Phone, Send } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, Send } from "lucide-react";
 
 const ContactSection = () => {
   const [formState, setFormState] = useState({
@@ -20,50 +19,50 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would normally handle the form submission,
-    // but for this demo we'll just log to console
     console.log("Form submitted:", formState);
-    // Reset form
     setFormState({ name: "", email: "", message: "" });
-    alert("Thank you for your message! This is a demo form.");
+    alert("Thank you for your message!");
   };
 
   return (
     <section id="contact" className="py-20 px-6 lg:px-10">
       <div className="max-w-5xl mx-auto">
-        <h2 className="section-heading">Get In Touch</h2>
+        <h2 className="section-heading">Contact Me</h2>
 
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
-          {/* Contact Info */}
           <div className="space-y-8">
             <p className="text-white/80">
-              I'm currently open to freelance opportunities and interesting
-              projects. Whether you have a question or just want to say hi, I'll
-              try my best to get back to you!
+              Please feel free to contact me at any time. I'll try to get back
+              to you as soon as possible!
             </p>
 
             <div className="space-y-6">
               <ContactItem
                 icon={<Mail size={18} />}
                 label="Email"
-                value="hello@example.com"
-                href="mailto:hello@example.com"
+                value="kabirbose04@gmail.com"
+                href="mailto:kabirbose04@gmail.com"
               />
               <ContactItem
-                icon={<Phone size={18} />}
-                label="Phone"
-                value="+1 (555) 123-4567"
-                href="tel:+15551234567"
+                icon={<Linkedin size={18} />}
+                label="LinkedIn"
+                value="Kabir Bose"
+                href="https://www.linkedin.com/in/kabirbose/"
+              />
+              <ContactItem
+                icon={<Github size={18} />}
+                label="GitHub"
+                value="kabirbose"
+                href="https://github.com/kabirbose"
               />
               <ContactItem
                 icon={<MapPin size={18} />}
                 label="Location"
-                value="San Francisco, CA"
+                value="Toronto, ON, Canada"
               />
             </div>
           </div>
 
-          {/* Contact Form */}
           <div className="glass-card rounded-lg p-6">
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
@@ -161,7 +160,10 @@ const ContactItem = ({
   return (
     <div className="flex items-center gap-4">
       {href ? (
-        <a href={href} className="flex items-center gap-4 hover:text-accent transition-colors">
+        <a
+          href={href}
+          className="flex items-center gap-4 hover:text-accent transition-colors"
+        >
           {content}
         </a>
       ) : (
