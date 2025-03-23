@@ -1,4 +1,3 @@
-
 import { Briefcase, GraduationCap, User } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -9,25 +8,25 @@ const AboutSection = () => {
         <div className="space-y-10">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
-              John Doe
+              Kabir Bose
             </h1>
             <p className="mt-4 text-xl text-white/80">
-              Front-end Developer & UI/UX Designer
+              Networking Engineer & Student
             </p>
           </div>
 
           <div className="flex flex-wrap gap-4">
             <ProfileChip
               icon={<Briefcase size={16} />}
-              text="Software Engineer at TechCorp"
+              text="Network Engineer Intern at CBC"
             />
             <ProfileChip
               icon={<GraduationCap size={16} />}
-              text="Computer Science, Stanford"
+              text="Networking & IT Security at Ontario Tech"
             />
             <ProfileChip
               icon={<User size={16} />}
-              text="Based in San Francisco, CA"
+              text="Based in Toronto, ON, Canada"
             />
           </div>
 
@@ -37,15 +36,16 @@ const AboutSection = () => {
               <p>
                 I'm a passionate front-end developer with over 5 years of
                 professional experience creating elegant, responsive, and
-                user-friendly web applications. I specialize in modern JavaScript
-                frameworks like React and Vue.js, with a strong focus on
-                performance optimization and accessibility.
+                user-friendly web applications. I specialize in modern
+                JavaScript frameworks like React and Vue.js, with a strong focus
+                on performance optimization and accessibility.
               </p>
               <p>
-                My background in UI/UX design allows me to bridge the gap between
-                design and development, creating cohesive experiences that are both
-                visually appealing and functionally robust. I'm dedicated to
-                staying at the forefront of web technologies and best practices.
+                My background in UI/UX design allows me to bridge the gap
+                between design and development, creating cohesive experiences
+                that are both visually appealing and functionally robust. I'm
+                dedicated to staying at the forefront of web technologies and
+                best practices.
               </p>
             </div>
           </div>
