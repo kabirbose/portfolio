@@ -18,7 +18,7 @@ const ProjectsSection = () => {
       tags: ["LangChain", "SQL", "TypeScript", "Next.js"],
       image:
         "https://www.jetbrains.com/datagrip/img/screenshots/query-console.png",
-      github: "",
+      github: "https://github.com/kabirbose/sql-translator",
       demo: "",
     },
     {
