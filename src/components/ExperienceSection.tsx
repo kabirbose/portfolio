@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -7,28 +6,27 @@ const ExperienceSection = () => {
 
   const jobs = [
     {
-      company: "TechCorp",
-      title: "Senior Front-end Developer",
-      period: "2021 - Present",
+      company: "CBC",
+      title: "Network Engineering Intern",
+      period: "Sep 2024 - Sep 2025",
       description: [
-        "Led the development of a React-based dashboard that increased user engagement by 40%",
-        "Implemented performance optimizations that reduced page load times by 60%",
-        "Collaborated with designers to create a component library used across multiple projects",
-        "Mentored junior developers and conducted code reviews to ensure code quality",
+        "Developed a Python program utilizing PyNetbox API to automate bulk creation of connections and devices in Netbox, significantly reducing Cisco DNAC configuration times for 1000+ nodes",
+        "Led cross-functional coordination with installers, CAD specialists, and engineers to successfully migrate 4 sites to Software Defined Access (SDA) network, enhancing security and scalability",
+        "Streamlined project management by utilizing Jira API integrations to manage engineering team epics, maintaining Agile workflow integrity and ensuring 100% on-time delivery between sprints",
+        "Executed comprehensive inventory management of 1000+ enterprise networking devices, including Cisco and Arista switches, WTIs, fiber, and SFPs, optimizing deployment workflows",
+        "Delivered strategic consulting for media-production network infrastructure requirements, directly contributing to 2026 Milan Winter Olympics broadcast planning",
       ],
-      tech: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+      tech: ["Python", "JavaScript", "Cisco IOS", "Jira"],
     },
     {
-      company: "WebSolutions Inc.",
-      title: "UI Developer",
-      period: "2019 - 2021",
+      company: "City of Toronto",
+      title: "Camp Counselor",
+      period: "Jul 2022 - Aug 2024",
       description: [
-        "Developed and maintained multiple client websites using Vue.js",
-        "Created responsive layouts that provided seamless experiences across devices",
-        "Integrated RESTful APIs to provide dynamic content updates",
-        "Established testing protocols that reduced production bugs by 35%",
+        "Built strong communication skills working with diverse groups of campers and staff, developing the ability to explain complex concepts in simple terms — valuable for technical environments",
+        "Oversaw the safety and engagement of 60-70 campers daily, maintaining a secure environment while creating memorable summer experiences — demonstrated ability to positively impact large groups",
       ],
-      tech: ["Vue.js", "JavaScript", "SCSS", "Jest"],
+      tech: ["Microsoft Office", "Google Workspace"],
     },
     {
       company: "Creative Digital",
@@ -47,10 +45,9 @@ const ExperienceSection = () => {
   return (
     <section id="experience" className="py-20 px-6 lg:px-10">
       <div className="max-w-5xl mx-auto">
-        <h2 className="section-heading">Work Experience</h2>
+        <h2 className="section-heading">Experience</h2>
 
         <div className="mt-10 flex flex-col md:flex-row gap-8">
-          {/* Tabs */}
           <div className="md:w-1/4">
             <div className="flex md:flex-col overflow-x-auto md:overflow-visible scrollbar-none">
               {jobs.map((job, index) => (
@@ -70,7 +67,6 @@ const ExperienceSection = () => {
             </div>
           </div>
 
-          {/* Content */}
           <div className="md:w-3/4">
             <div className="animate-fade-in">
               <h3 className="text-xl font-medium text-white">
