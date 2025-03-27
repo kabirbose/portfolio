@@ -59,12 +59,12 @@ const ContactItem = ({
 }) => {
   const content = (
     <>
-      <div className="w-10 h-10 rounded-full bg-accent/10 border border-accent/30 flex items-center justify-center flex-shrink-0">
-        <span className="text-accent">{icon}</span>
+      <div className="w-10 h-10 rounded-full bg-accent/10 border border-accent/30 flex items-center justify-center flex-shrink-0 transition-colors duration-300 group-hover:bg-accent/30">
+        <span className="text-accent transition-transform duration-300 group-hover:scale-110">{icon}</span>
       </div>
       <div>
-        <p className="text-sm text-white/60">{label}</p>
-        <p className="text-white">{value}</p>
+        <p className="text-sm text-white/60 transition-colors duration-300 group-hover:text-white/80">{label}</p>
+        <p className="text-white transition-colors duration-300 group-hover:text-accent">{value}</p>
       </div>
     </>
   );
@@ -74,12 +74,14 @@ const ContactItem = ({
       {href ? (
         <a
           href={href}
-          className="flex items-center gap-4 hover:text-accent transition-colors"
+          className="flex items-center gap-4 transition-all duration-300 hover:translate-x-1 group"
         >
           {content}
         </a>
       ) : (
-        content
+        <div className="flex items-center gap-4 group">
+          {content}
+        </div>
       )}
     </div>
   );
