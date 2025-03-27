@@ -5,7 +5,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-20 px-6 lg:px-10">
       <div className="max-w-5xl mx-auto">
-        <h2 className="section-heading">Contact Me</h2>
+        <h2 className="section-heading text-center">Contact Me</h2>
 
         <div className="mt-10">
           <div className="glass-card rounded-lg p-8 max-w-2xl mx-auto">
