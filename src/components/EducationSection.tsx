@@ -1,4 +1,3 @@
-
 import { GraduationCap } from "lucide-react";
 
 const EducationSection = () => {
@@ -13,7 +12,7 @@ const EducationSection = () => {
       degree: "Ontario Secondary School Diploma (OSSD)",
       school: "Lester B. Pearson Collegiate Institute",
       period: "Sep 2019 - Jun 2022",
-      description: "Achieved my high-school diploma.",
+      description: "Received my high-school diploma.",
     },
   ];
 
