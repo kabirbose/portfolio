@@ -34,15 +34,16 @@ const AboutSection = () => {
             <h2 className="section-heading">About Me</h2>
             <div className="space-y-4 text-white/80">
               <p>
-                I'm a dedicated network engineer with hands-on experience in
-                Cisco and Arista technologies. Over the past year, I've worked
-                in a data center environment, planning, designing, configuring,
-                and troubleshooting LANs. Currently in my third year of
-                university, I specialize in Networking and IT Security, and have
-                a strong grasp of CCNA and CCNP concepts.
+                I'm a dedicated network engineer with hands-on experience
+                configuring Cisco and Arista devices. Over the past year, I've
+                worked in a data center environment at CBC, where I've been
+                responsible for planning, configuring, and troubleshooting LANs.
+                As a third-year Information Technology student, I've built a
+                strong foundation in networking concepts and practical
+                implementation.
               </p>
               <p>
-                Beyond networking, I'm skilled in C++, Python, JavaScript,
+                Beyond networking, I'm proficient in C++, Python, JavaScript,
                 TypeScript, and SQL, along with frameworks like Qt, LangChain,
                 PostgreSQL, and Next.js. With three years of project-driven
                 experience, I enjoy developing practical, high-impact

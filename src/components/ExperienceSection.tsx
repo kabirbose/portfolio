@@ -12,7 +12,7 @@ const ExperienceSection = () => {
       description: [
         "Developed a Python program utilizing PyNetbox API to automate bulk creation of connections and devices in Netbox, significantly reducing Cisco DNAC configuration times for 1000+ nodes",
         "Led cross-functional coordination with installers, CAD specialists, and engineers to successfully migrate 4 sites to Software Defined Access (SDA) network, enhancing security and scalability",
-        "Streamlined project management by utilizing Jira API integrations to manage engineering team epics, maintaining Agile workflow integrity and ensuring 100% on-time delivery between sprints",
+        "Streamlined project management by utilizing Jira API to manage engineering team epics, maintaining Agile workflow integrity and ensuring 100% on-time delivery between sprints",
         "Executed comprehensive inventory management of 1000+ enterprise networking devices, including Cisco and Arista switches, WTIs, fiber, and SFPs, optimizing deployment workflows",
         "Delivered strategic consulting for media-production network infrastructure requirements, directly contributing to 2026 Milan Winter Olympics broadcast planning",
       ],
@@ -26,17 +26,17 @@ const ExperienceSection = () => {
         "Built strong communication skills working with diverse groups of campers and staff, developing the ability to explain complex concepts in simple terms",
         "Oversaw the safety and engagement of 60-70 campers daily, maintaining a secure environment while creating memorable summer experiences",
       ],
-      tech: ["Microsoft Office"],
+      tech: [],
     },
     {
       company: "Canadian Armed Forces",
       title: "Naval Communicator",
       period: "Oct 2020 - Jun 2022",
       description: [
-        "Executed precise technical procedures including rifle handling, basic firefighting, and gas training under high-pressure conditions at Canadian Forces Base (CFB) Valcartier, reflecting exceptional discipline and composure",
+        "Executed precise technical procedures including rifle handling and fire-fighting under high-pressure conditions at Canadian Forces Base (CFB) Valcartier, reflecting exceptional discipline and composure",
         "Led a team through challenging tactical exercises during Basic Military Qualification (BMQ), developing strong problem-solving and leadership skills",
       ],
-      tech: ["Microsoft Office"],
+      tech: [],
     },
   ];
 
