@@ -1,3 +1,4 @@
+
 import { GraduationCap } from "lucide-react";
 
 const EducationSection = () => {
@@ -25,9 +26,9 @@ const EducationSection = () => {
           {education.map((item, index) => (
             <div
               key={index}
-              className="relative pl-10 before:content-[''] before:absolute before:left-3 before:top-2 before:w-px before:h-full before:bg-white/10"
+              className="relative pl-10 before:content-[''] before:absolute before:left-3 before:top-10 before:w-px before:h-[calc(100%-30px)] before:bg-white/10"
             >
-              <div className="absolute left-0 top-1 w-6 h-6 rounded-full bg-accent/10 border border-accent/30 flex items-center justify-center">
+              <div className="absolute left-0 top-1 w-6 h-6 rounded-full bg-accent/10 border border-accent/30 flex items-center justify-center z-10">
                 <GraduationCap size={14} className="text-accent" />
               </div>
 
