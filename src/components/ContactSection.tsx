@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 9c6a7ee (minor wording changes)
 import { Mail, MapPin, Github, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
@@ -13,13 +9,8 @@ const ContactSection = () => {
         <div className="mt-10">
           <div className="glass-card rounded-lg p-8 max-w-2xl mx-auto">
             <p className="text-white/80 mb-8 text-center">
-<<<<<<< HEAD
               Please feel free to contact me at any time. I'll try to get back
               to you as soon as possible!
-=======
-              Please feel free to contact me any time. I'll get back to you as
-              soon as possible.
->>>>>>> 9c6a7ee (minor wording changes)
             </p>
 
             <div className="space-y-6">
@@ -68,13 +59,6 @@ const ContactItem = ({
   const content = (
     <>
       <div className="w-10 h-10 rounded-full bg-accent/10 border border-accent/30 flex items-center justify-center flex-shrink-0 transition-colors duration-300 group-hover:bg-accent/30">
-<<<<<<< HEAD
-        <span className="text-accent transition-transform duration-300 group-hover:scale-110">{icon}</span>
-      </div>
-      <div>
-        <p className="text-sm text-white/60 transition-colors duration-300 group-hover:text-white/80">{label}</p>
-        <p className="text-white transition-colors duration-300 group-hover:text-accent">{value}</p>
-=======
         <span className="text-accent transition-transform duration-300 group-hover:scale-110">
           {icon}
         </span>
@@ -86,7 +70,6 @@ const ContactItem = ({
         <p className="text-white transition-colors duration-300 group-hover:text-accent">
           {value}
         </p>
->>>>>>> 9c6a7ee (minor wording changes)
       </div>
     </>
   );
@@ -101,13 +84,7 @@ const ContactItem = ({
           {content}
         </a>
       ) : (
-<<<<<<< HEAD
-        <div className="flex items-center gap-4 group">
-          {content}
-        </div>
-=======
         <div className="flex items-center gap-4 group">{content}</div>
->>>>>>> 9c6a7ee (minor wording changes)
       )}
     </div>
   );
