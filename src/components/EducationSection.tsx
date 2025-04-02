@@ -12,11 +12,7 @@ const EducationSection = () => {
       degree: "Ontario Secondary School Diploma (OSSD)",
       school: "Lester B. Pearson Collegiate Institute",
       period: "Sep 2019 - Jun 2022",
-<<<<<<< HEAD
       description: "Received my high-school diploma.",
-=======
-      description: "Achieved my high-school diploma.",
->>>>>>> 9c6a7ee (minor wording changes)
     },
   ];
 
